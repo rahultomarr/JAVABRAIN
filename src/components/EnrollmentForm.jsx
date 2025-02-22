@@ -1,23 +1,30 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+import emailjs from "emailjs-com";
 
 function EnrollmentForm() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    course: '',
-    experience: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    course: "",
+    experience: "",
+    message: ""
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    navigate('/');
+    
+    emailjs.send("service_8bdz53a", "template_vpefo6j", formData, "o4m2v5AXWznedHOes")
+      .then((response) => {
+        console.log("Email sent successfully!", response);
+        navigate("/");
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+      });
   };
 
   const handleChange = (e) => {

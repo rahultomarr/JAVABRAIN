@@ -16,9 +16,9 @@ function AboutPage() {
               our students are well-equipped to succeed in their careers.
             </p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center hover:scale-105 transition-transform">
             <img 
-              src="https://raw.githubusercontent.com/stackblitz/stackblitz-assets/master/public/images/community.png"
+              src="https://img.freepik.com/free-vector/branding-concept-landing-page_23-2148244329.jpg?t=st=1740227222~exp=1740230822~hmac=3b8573b8437a6c659fb96af6f9b183658efae73a5b20d2dbff4f3bcb07fa7124&w=2000"
               alt="Our Mission" 
               className="max-w-full h-auto rounded-lg shadow-lg"
             />

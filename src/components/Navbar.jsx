@@ -21,14 +21,14 @@ function Navbar() {
     <nav className="bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 justify-items-center">
             <Link to="/" className="flex items-center">
               <span className="text-2xl font-bold text-primary">JAVABRAIN</span>
             </Link>
           </div>
           <div className="hidden md:block">
-            <div className="ml-10 flex items-center space-x-8">
-              <Link to="/" className="nav-link">Home</Link>
+            <div className="ml-10 flex items-center space-x-8 ">
+              <Link to="/" className="nav-link hover:scale-105 transition-transform">Home</Link>
 
               {/* Dropdown Menu (Fixed Hover Issue) */}
               <div 
@@ -36,7 +36,7 @@ function Navbar() {
                 onMouseEnter={openDropdown}
                 onMouseLeave={closeDropdown}
               >
-                <button className="nav-link focus:outline-none">
+                <button className="nav-link focus:outline-none hover:scale-105 transition-transform">
                   What We Do
                 </button>
 
@@ -50,33 +50,33 @@ function Navbar() {
                     onMouseLeave={closeDropdown}
                   >
                     <Link 
-                      to="/name" 
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      to="/WhatWeDo" 
+                      className="block px-4 py-2 hover:bg-green-600 hover:scale-105 transition-transform"
                       onClick={() => setIsDropdownOpen(false)}
                     >
-                      Name
+                      Training
                     </Link>
                     <Link 
-                      to="/email" 
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      to="/WhatWeDo" 
+                      className="block px-4 py-2 hover:bg-green-600 hover:scale-105 transition-transform"
                       onClick={() => setIsDropdownOpen(false)}
                     >
-                      Email
+                      Strategy
                     </Link>
                     <Link 
-                      to="/phoneno" 
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      to="/WhatWeDo" 
+                      className="block px-4 py-2 hover:bg-green-600 hover:scale-105 transition-transform"
                       onClick={() => setIsDropdownOpen(false)}
                     >
-                      Phone No
+                      Support
                     </Link>
                   </motion.div>
                 )}
               </div>
 
-              <Link to="/about" className="nav-link">About Us</Link>
-              <Link to="/team" className="nav-link">Our Team</Link>
-              <Link to="/contact" className="nav-link">Contact Us</Link>
+              <Link to="/about" className="nav-link hover:scale-105 transition-transform">About Us</Link>
+              <Link to="/team" className="nav-link hover:scale-105 transition-transform">Our Team</Link>
+              <Link to="/contact" className="nav-link hover:scale-105 transition-transform">Contact Us</Link>
             </div>
           </div>
         </div>

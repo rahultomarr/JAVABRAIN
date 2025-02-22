@@ -6,7 +6,7 @@ function Hero() {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-gray-50">
+    <div className="min-h-screen bg-green-100 p-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -36,7 +36,7 @@ function Hero() {
             <img 
               src={hero} 
               alt="Coding illustration" 
-              className="w-[400px] xl:w-[600px] relative z-10 drop-shadow"
+              className="w-[700px] xl:w-[700px] relative z-10 drop-shadow  "
             />
           </motion.div>
         </div>

@@ -13,6 +13,7 @@
     "@emailjs/browser": "^4.4.1",
     "aos": "^2.3.4",
     "autoprefixer": "^10.4.17",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^11.0.3",
     "postcss": "^8.4.35",
     "react": "^19.0.0",

@@ -27,9 +27,9 @@ function About() {
           </div>
           <div data-aos="fade-left" className="flex justify-center">
             <img 
-              src={banner} // Update the src attribute
+              src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Update the src attribute
               alt="Community" 
-              className="w-[350px] md:max-w-[450px] object-cover drop-shadow"
+              className="w-[350px] md:max-w-[450px] object-cover drop-shadow rounded-lg"
             />
           </div>
         </div>

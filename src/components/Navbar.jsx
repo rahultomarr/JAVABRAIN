@@ -23,12 +23,12 @@ function Navbar() {
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 justify-items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-primary">JAVABRAIN</span>
+            <span className="text-2xl font-bold text-primary">JAVABRAIN</span>
             </Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8 ">
-              <Link to="/" className="nav-link hover:scale-105 transition-transform">Home</Link>
+              <Link to="/" className="nav-link ">Home</Link>
 
               {/* Dropdown Menu (Fixed Hover Issue) */}
               <div 

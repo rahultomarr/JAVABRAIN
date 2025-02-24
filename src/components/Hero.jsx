@@ -40,10 +40,14 @@ function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl font-bold text-secondary mb-6">
-              Code Your <span className="text-primary">Future</span>,<br />
-              Crack Your Dream Job!
+            <h1 className="text-8xl font-bold text-secondary mb-6">
+            What is the <br /> <span className="text-primary font-normal">Placement <br /> Guaranteed</span><br />
+            Program?
             </h1>
+
+            <h1 className='text-1xl font-bold text-secondary mb-6'>Our <span className='text-primary'>Placement Guaranteed Program</span> offers an exceptional opportunity for you to gain<span className='text-primary'> 6 months</span> of hands-on, real-time project-based training.<br /><br />
+               We provide a pathway to work in a professional environment while enhancing your skills through workplace training. <br /><br />
+               Choose between <span className='text-primary'>Software Testing</span> or <span className='text-primary'>Core Java</span>  and kickstart your career with confidence.</h1>
             <motion.button
               className="btn-primary"
               whileHover={{ scale: 1.05 }}
@@ -60,7 +64,7 @@ function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <img 
-              src="https://files.oaiusercontent.com/file-P2byT5dRGXRVCp3o5xCZdq?se=2025-02-24T17%3A25%3A17Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df8d2958d-b7a0-4401-9d51-634624dfb56e.webp&sig=KmpeFApQ/3GOpsavtCN82E0vsyswYPbbkX5XocCvrSo%3D" 
+              src="https://plus.unsplash.com/premium_photo-1681248156502-745ab87474d8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
               alt="Coding illustration" 
               className="w-[700px] xl:w-[700px] relative z-10 drop-shadow rounded-lg"
             />

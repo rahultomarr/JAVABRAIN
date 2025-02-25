@@ -8,6 +8,7 @@ import TeamPage from './pages/TeamPage';
 import ContactPage from './pages/ContactPage';
 import EnrollmentForm from './components/EnrollmentForm';
 import Footer from './components/Footer';
+import Placement from './components/Placement';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/team" element={<TeamPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/enroll" element={<EnrollmentForm />} />
+          <Route path="/placement" element={<Placement />} />
         </Routes>
         <Footer />
       </div>

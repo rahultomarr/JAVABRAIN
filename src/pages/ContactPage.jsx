@@ -77,16 +77,16 @@ const ContactPage = () => {
               </div>
               <div className="flex items-center">
                 <span className="text-2xl mr-4">📞</span>
-                <div>
+                {/* <div>
                   <h3 className="font-semibold">Phone</h3>
                   <p className="text-gray-600">+91 90253 65964</p>
-                </div>
+                </div> */}
               </div>
               <div className="flex items-center">
                 <span className="text-2xl mr-4">✉️</span>
                 <div>
                   <h3 className="font-semibold">Email</h3>
-                  <p className="text-gray-600">dk@ldappsolutions.com</p>
+                  <p className="text-gray-600">join@javabrain.tech</p>
                 </div>
               </div>
             </div>

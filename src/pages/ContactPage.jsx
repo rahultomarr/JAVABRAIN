@@ -72,11 +72,11 @@ const ContactPage = () => {
                 <span className="text-2xl mr-4">📍</span>
                 <div>
                   <h3 className="font-semibold">Address</h3>
-                  <p className="text-gray-600">Javabrain Technologies AWFIS, 7th floor Arihant Technopolis, Kottivakkam OMR, Chennai PIN - 600097</p>
+                  <p className="text-gray-600">One Thoraippakam OMR, Chennai Pin - 600097</p>
                 </div>
               </div>
               <div className="flex items-center">
-                <span className="text-2xl mr-4">📞</span>
+                <span className="text-2xl mr-4"></span>
                 {/* <div>
                   <h3 className="font-semibold">Phone</h3>
                   <p className="text-gray-600">+91 90253 65964</p>

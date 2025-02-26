@@ -80,6 +80,7 @@ function Navbar() {
                   </AnimatePresence>
                 </div>
 
+                <Link to="/Placement" className="nav-link hover:scale-105 transition-transform">Placement Program</Link>
                 <Link to="/about" className="nav-link hover:scale-105 transition-transform">About Us</Link>
                 <Link to="/team" className="nav-link hover:scale-105 transition-transform">Our Team</Link>
                 <Link to="/contact" className="nav-link hover:scale-105 transition-transform">Contact Us</Link>

@@ -18,7 +18,7 @@ const WhatWeDo = () => {
     {
       title: "Support",
       description:
-        "Ongoing assistance including mock interviews, real-time Q&A sessions, and placement guidance.",
+        "Ongoing assistance including mock interviews, real-time Q&A sessions, Training & 100% Placement.",
       image: "https://img.freepik.com/premium-vector/checklist-remind-project-progress-design-concept-vector-illustration_7087-2319.jpg?w=1480"
     },
   ];

@@ -14,9 +14,8 @@ function About() {
               Start your Journey
             </h2>
             <p className="text-gray-600 mb-8">
-              At JavaBrain, we aim to bridge the gap between academic learning and real-world industry requirements. 
-              Our structured training programs focus on hands-on coding, interview preparation, and placement assistance, 
-              ensuring that our students are industry-ready.
+            At <span className='text-green-600'>JavaBrain</span>, we bridge the gap between academic learning and real-world industry demands.
+             Our structured training programs emphasize <span className='text-green-600'>hands-on coding, expert-led interview preparation, and dedicated placement assistance</span>, ensuring you are fully equipped to thrive in the IT industry. 🚀
             </p>
             <button 
               className="btn-primary"

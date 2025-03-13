@@ -14,7 +14,7 @@ function Placement() {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-5xl font-bold">Placement Guaranteed Program</h1>
-        <p className="mt-3 text-lg">Secure your dream job with our 6-month intensive training program.</p>
+        <p className="mt-3 text-lg">Secure your dream job with our 45 to 60 days intensive training program.</p>
       </motion.div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -31,7 +31,7 @@ function Placement() {
 
             <h1 className='text-1xl font-bold text-secondary mb-6'>
               Our <span className='text-primary'>Placement Guaranteed Program</span> offers an exceptional opportunity for you to gain 
-              <span className='text-primary'> 6 months</span> of hands-on, real-time project-based training.<br /><br />
+              <span className='text-primary'> 45 to 60 days</span> of hands-on, real-time project-based training.<br /><br />
               We provide a pathway to work in a professional environment while enhancing your skills through workplace training. <br /><br />
               Choose between <span className='text-primary'>Software Testing</span> or <span className='text-primary'>Core Java</span> and kickstart your career with confidence.
             </h1>

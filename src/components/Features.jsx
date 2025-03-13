@@ -1,8 +1,8 @@
 function Features() {
   const features = [
-    { id: 1, title: '10,000+ Courses', icon: '📚' },
+    { id: 1, title: 'Job assurances', icon: '📚' },
     { id: 2, title: 'Expert Instruction', icon: '👨‍🏫' },
-    { id: 3, title: 'Lifetime Access', icon: '⌛' },
+    { id: 3, title: 'Mock Test', icon: '📝' },
   ];
 
   return (

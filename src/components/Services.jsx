@@ -9,7 +9,7 @@ function Services() {
     { id: 5, name: 'HIBERNATE', icon: '🔄' },
     { id: 6, name: 'STRUTS', icon: '🎯' },
     { id: 7, name: 'MICROSERVICES', icon: '🌐' },
-    { id: 8, name: 'ANGULAR', icon: '🅰️' },
+    { id: 8, name: 'REACT/ANGULAR JS', icon: '🅰️' },
   ];
 
   return (

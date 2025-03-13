@@ -1,3 +1,8 @@
+import React from "react";
+import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { TbWorldWww } from "react-icons/tb";
+import { motion } from "framer-motion";
+
 function Footer() {
   return (
     <footer className="bg-secondary text-white py-12">
@@ -40,6 +45,15 @@ function Footer() {
                 className="px-4 py-2 rounded-l-md text-black w-full"
               />
               <button className="bg-primary px-4 py-2 rounded-r-md">Go</button>
+            </div>
+            {/* social icons */}
+            <div className="flex space-x-6 py-3">
+              <a href="https://wa.me/9092492772">
+                <FaWhatsapp className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
+              </a>
+              <a href="https://www.instagram.com/javabraintech?igsh=YmJ2eGtheDA3M2h1">
+                <FaInstagram className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
+              </a>
             </div>
           </div>
         </div>
